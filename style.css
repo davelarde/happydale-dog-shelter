@@ -34,22 +34,29 @@ main a {
 
 .dog-list-container {
   /* your code */
-}
-
-.fluid-text {
-  font-size: 2rem;
-}
-
-.desktop-nav {
-  display:block;
-}
-
-.single-dog-card {
-  padding: 1rem;
-  max-width: 20rem;
-  border: 2px solid peru;
-  border-radius: 1rem;
-  margin: 1rem;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+    flex-wrap: wrap;
+    align-items:center;
+    
+  }
+  
+  .fluid-text {
+    font-size: 2rem;
+  }
+  
+  .desktop-nav {
+    display:block;
+  }
+  
+  .single-dog-card {
+    padding: 1rem;
+    max-width: 20rem;
+    border: 2px solid peru;
+    border-radius: 1rem;
+    margin: 1rem;
+    align-items: flex-start;
 }
 
 .single-dog-card img {
